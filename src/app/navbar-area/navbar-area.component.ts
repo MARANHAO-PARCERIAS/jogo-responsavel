@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar-area.component.css']
 })
 export class NavbarAreaComponent {
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
