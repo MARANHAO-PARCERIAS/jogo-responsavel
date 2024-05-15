@@ -1,28 +1,32 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarAreaComponent } from './navbar-area/navbar-area.component';
-import { FormAreaComponent } from './form-area/form-area.component';
-import { QuizComponent } from './quiz/quiz.component';
+import { ChangeBgDirective } from './quiz/change-bg.directive';
 import { HeaderComponent } from './quiz/header/header/header.component';
 import { QuestionComponent } from './quiz/question/question/question.component';
+import { QuizComponent } from './quiz/quiz.component';
 import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarAreaComponent,
-    FormAreaComponent,
     QuizComponent,
     HeaderComponent,
     QuestionComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ChangeBgDirective,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

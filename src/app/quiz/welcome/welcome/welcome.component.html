@@ -1,1 +1,21 @@
-<p>welcome works!</p>
+<div class="container bg-light py-5">
+  <h1 class="display-5 fw-bold" style="font-family: Segoe UI Emoji">Bem-Vindo ao Quiz Jogo Responsável</h1>
+  <br>
+  <p class="col-md-8 fs-4" style="font-family: Segoe UI Emoji">Este quiz contém um total de 19 perguntas. Cada pergunta vale 10 pontos</p>
+  <br>
+  <h5 style="font-family: Segoe UI Emoji">Regras:</h5>
+  <ol>
+      <li style="font-family: Segoe UI Emoji">- Resposta afirmativa vale 10 points</li>
+      <li style="font-family: Segoe UI Emoji">- Resposta negativa vale -10 points</li>
+      <li style="font-family: Segoe UI Emoji">- Você terá 40 segundos para responder cada pergunta</li>
+      <!-- <li style="font-family: Segoe UI Emoji">- Atualizar irá redefinir o Quiz</li> -->
+  </ol>
+  <h1 style="font-family: cursive;text-align:center">Boa sorte!!</h1>
+  <div class="name col-md-4 my-3">
+      <label for="" style="font-family: Segoe UI Emoji">Insira seu nome:</label>
+      <input #name type="text" class="form-control">
+  </div>
+  <div class="text-center">
+  <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()" style="font-family: Segoe UI Emoji">Iniciar o Quiz!!</button>
+</div>
+</div>

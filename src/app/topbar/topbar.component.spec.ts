@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormAreaComponent } from './form-area.component';
+import { TopbarComponent } from './topbar.component';
 
-describe('FormAreaComponent', () => {
-  let component: FormAreaComponent;
-  let fixture: ComponentFixture<FormAreaComponent>;
+describe('TopbarComponent', () => {
+  let component: TopbarComponent;
+  let fixture: ComponentFixture<TopbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FormAreaComponent ]
+      declarations: [ TopbarComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FormAreaComponent);
+    fixture = TestBed.createComponent(TopbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

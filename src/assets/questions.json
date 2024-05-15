@@ -1,0 +1,251 @@
+{
+  "questions": [
+    {
+      "questionText": "Você já perdeu horas de trabalho ou da escola devido ao jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez o jogo já causou infelicidade na sua vida familiar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo já afetou sua reputação?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você já sentiu remorso após jogar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou para obter dinheiro para pagar dívidas ou então resolver dificuldades financeiras?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Após ter perdido você se sentiu como se necessitasse voltar o mais cedo possível e recuperar as suas perdas?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Após um ganho você sentiu uma forte vontade de voltar a ganhar mais?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você geralmente jogava até que seu último centavo acabasse?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você já pediu dinheiro emprestado para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já vendeu alguma coisa para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você relutava em usar o dinheiro de jogo para as despesas normais?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo o tomou descuidado com o seu bem-estar e o de sua família?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou por mais tempo do que planejava?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou para fugir das preocupações ou problemas?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já cometeu, ou pensou em cometer um ato ilegal para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo fez com que você tivesse dificuldades para dormir?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "As discussões, desapontamentos ou frustações fizeram com que você tivesse vontade de jogar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já teve vontade de celebrar alguma boa sorte com algumas horas de jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já pensou em se autodestruir como resultado de seu jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    }
+  ]
+}
