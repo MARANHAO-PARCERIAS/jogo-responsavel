@@ -27,7 +27,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "O jogo já afetou sua reputação?",
+      "questionText": "O jogo afetou a sua reputação?",
       "options": [
         {
           "text": "Sim",
@@ -66,7 +66,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Após ter perdido você se sentiu como se necessitasse voltar o mais cedo possível e recuperar as suas perdas?",
+      "questionText": "O jogo causou uma diminuição na sua ambição ou eficiência?",
       "options": [
         {
           "text": "Sim",
@@ -79,7 +79,20 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Após um ganho você sentiu uma forte vontade de voltar a ganhar mais?",
+      "questionText": "Após ter perdido você sentiu como se necessitasse voltar o mais cedo possível a recuperar as suas perdas?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Após um ganho você sentiu uma forte vontade de ganhar mais?",
       "options": [
         {
           "text": "Sim",
@@ -105,7 +118,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Você já pediu dinheiro emprestado para financiar o jogo?",
+      "questionText": "Você relutava em usar o “dinheiro do jogo” para as despesas normais?",
       "options": [
         {
           "text": "Sim",
@@ -118,7 +131,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Alguma vez você já vendeu alguma coisa para financiar o jogo?",
+      "questionText": "Alguma vez você já vendeu alguma coisa para financiar seu jogo?",
       "options": [
         {
           "text": "Sim",
@@ -131,7 +144,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Você relutava em usar o dinheiro de jogo para as despesas normais?",
+      "questionText": "Você já pediu dinheiro emprestado para financiar seu jogo?",
       "options": [
         {
           "text": "Sim",
@@ -144,7 +157,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "O jogo o tomou descuidado com o seu bem-estar e o de sua família?",
+      "questionText": "O jogo o tornou descuidado com seu bem-estar e o da sua família?",
       "options": [
         {
           "text": "Sim",
@@ -157,7 +170,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Alguma vez você já jogou por mais tempo do que planejava?",
+      "questionText": "Alguma vez você jogou por mais tempo do que planejava?",
       "options": [
         {
           "text": "Sim",
@@ -209,7 +222,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "As discussões, desapontamentos ou frustações fizeram com que você tivesse vontade de jogar?",
+      "questionText": "As discussões, desapontamentos ou frustrações fizeram com que você tivesse vontade de jogar?",
       "options": [
         {
           "text": "Sim",
@@ -235,7 +248,7 @@
       "explanation": "explicação do resultado aqui"
     },
     {
-      "questionText": "Alguma vez você já pensou em se autodestruir como resultado de seu jogo?",
+      "questionText": "Alguma vez você já pensou em se autodestruir como resultado do seu jogo?",
       "options": [
         {
           "text": "Sim",

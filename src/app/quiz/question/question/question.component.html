@@ -6,21 +6,22 @@
               <img src="assets/imagens/logo/logolotema.png" width="200" alt="logo">
           </div>
           <div class="quiz-header">
-              <h4 style="font-family: cursive;">Quiz Jogo Responsável</h4>
-              <span style="font-style: italic;">Bem-Vindo {{name}}</span>
+            <span class="fw-bold fs-3 text-dark" style="font-family: cursive;">Quiz de Jogo Responsável</span>
+            <br>
+            <span class="fw-bold">Bem-Vindo {{name}}</span>
           </div>
       </div>
 
       <ng-container *ngIf="!isQuizCompleted">
           <div class="d-flex justify-content-around py-3">
               <div class="score">
-                  <h5 style="font-family: Segoe UI Emoji">{{points}} Pontos</h5>
+                <span class="fw-bold fs-5 text-dark" style="font-family: cursive;">{{points}} Pontos</span>
               </div>
               <div class="question-remain">
-                  <span style="font-style: italic;">Questão {{currentQuestion+1}} of {{questionList.length}}</span>
+                  <span class="fw-bold">Questão {{currentQuestion+1}} of {{questionList.length}}</span>
               </div>
               <div class="timer">
-                  <h5>{{counter}} sec ⏱</h5>
+                <span class="fw-bold fs-5 text-dark" style="font-family: cursive;">{{counter}} sec ⏱</span>
               </div>
           </div>
           <div class="progress mb-3">
@@ -28,7 +29,7 @@
           </div>
           <div class="question">
               <div class="card">
-                  <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+                <span class="fw-bold fs-4 text-dark" style="font-family: cursive;">{{questionList[currentQuestion]?.questionText}}</span>
               </div>
           </div>
           <div class="options">
@@ -60,7 +61,7 @@
                   <br>
                   <br>
                   <br>
-                  <p style="font-family: Segoe UI Emoji">Se sua pontuação for maior que 70 ou mais pontos para o teste acima, você é considerado um jogador com tendências a um jogador patológico.</p>
+                  <p style="font-family: Segoe UI Emoji">Se sua pontuação for igual ou superior a 70 pontos neste teste, você pode ser identificado como tendo tendências de jogador patológico.</p>
               </div>
           </div>
       </ng-container>
