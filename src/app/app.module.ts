@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarAreaComponent } from './navbar-area/navbar-area.component';
 import { ChangeBgDirective } from './quiz/change-bg.directive';
 import { HeaderComponent } from './quiz/header/header/header.component';
 import { QuestionComponent } from './quiz/question/question/question.component';
@@ -15,7 +14,6 @@ import { TopbarComponent } from './topbar/topbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarAreaComponent,
     QuizComponent,
     HeaderComponent,
     QuestionComponent,

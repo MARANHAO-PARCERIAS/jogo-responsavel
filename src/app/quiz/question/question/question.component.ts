@@ -106,8 +106,8 @@ export class QuestionComponent implements OnInit {
   }
   sairQuiz(){
     setTimeout(() => {
-      this.router.navigate(['/navbar-area'])
-    }, 500);
+      this.router.navigate(['/welcome'])
+    }, 250);
 
   }
 
