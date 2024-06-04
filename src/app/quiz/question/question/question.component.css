@@ -17,3 +17,53 @@ li .card:hover {
 ol {
   padding: 0;
 }
+
+.image img {
+  max-width: 100%;
+}
+
+.quiz-header span {
+  font-family: cursive;
+}
+
+.score span,
+.timer span,
+.question span {
+  font-family: cursive;
+}
+
+.result h3,
+.result p {
+  font-family: 'Segoe UI Emoji', sans-serif;
+}
+
+.result img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+button.btn {
+  font-family: 'Segoe UI Emoji', sans-serif;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .result img {
+    width: 100%;
+  }
+
+  .result {
+    width: 100%;
+  }
+}

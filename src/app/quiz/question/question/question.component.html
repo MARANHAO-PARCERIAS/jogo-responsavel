@@ -1,77 +1,73 @@
-
 <div class="container mt-5">
   <div class="card">
-      <div class="d-flex justify-content-between p-3">
-          <div class="image">
-              <img src="assets/imagens/logo/logolotema.png" width="200" alt="logo">
-          </div>
-          <div class="quiz-header">
-            <span class="fw-bold fs-3 text-dark" style="font-family: cursive;">Quiz de Jogo Responsável</span>
-            <br>
-            <span class="fw-bold">Bem-Vindo {{name}}</span>
-          </div>
+    <div class="d-flex justify-content-between p-3">
+      <div class="image">
+        <img src="assets/imagens/logo/logolotema.png" width="200" alt="logo">
       </div>
-
-      <ng-container *ngIf="!isQuizCompleted">
-          <div class="d-flex justify-content-around py-3">
-              <div class="score">
-                <span class="fw-bold fs-5 text-dark" style="font-family: cursive;">{{points}} Pontos</span>
-              </div>
-              <div class="question-remain">
-                  <span class="fw-bold">Questão {{currentQuestion+1}} of {{questionList.length}}</span>
-              </div>
-              <div class="timer">
-                <span class="fw-bold fs-5 text-dark" style="font-family: cursive;">{{counter}} sec ⏱</span>
-              </div>
-          </div>
-          <div class="progress mb-3">
-              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="question">
-              <div class="card">
-                <span class="fw-bold fs-4 text-dark" style="font-family: cursive;">{{questionList[currentQuestion]?.questionText}}</span>
-              </div>
-          </div>
-          <div class="options">
-              <ol *ngFor="let option of questionList[currentQuestion]?.options">
-                  <li (click)="answer(currentQuestion+1,option)">
-                      <div appChangeBg [isCorrect]="option.correct" class="card">
-                          {{option.text}}
-                      </div>
-                  </li>
-
-              </ol>
-          </div>
-          <div class="d-flex justify-content-between">
-              <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true"></i></button>
-              <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh text-primary fa-3x" aria-hidden="true"></i></button>
-              <button class="btn" (click)="nextQuestion()"><i class="fa text-primary fa-chevron-right fa-3x" aria-hidden="true"></i></button>
-          </div>
-      </ng-container>
-
-      <ng-container *ngIf="isQuizCompleted">
-          <div class="row d-flex justify-content-between">
-              <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto" src="assets/imagens/quiz/cuidados.jpg" alt="">
-              <div class="result text-center col-md-6 col-sm-12">
-                  <h3 style="font-family: Segoe UI Emoji">Parabéns!! <br>Você completou o quiz. <br>Seu resultado:</h3>
-                  <p style="font-family: Segoe UI Emoji">Perguntas Respondidas : {{questionList.length}} </p>
-                  <p style="font-family: Segoe UI Emoji">Respostas Afirmativas : {{correctAnswer}} </p>
-                  <p style="font-family: Segoe UI Emoji">Respostas Negativas : {{inCorrectAnswer}} </p>
-                  <p style="font-family: Segoe UI Emoji">Sua Pontuação : {{points}} Pontos </p>
-                  <br>
-                  <br>
-                  <br>
-                  <p style="font-family: Segoe UI Emoji">Se sua pontuação for igual ou superior a 70 pontos neste teste, você pode ser identificado como tendo tendências de jogador patológico.</p>
-              </div>
-          </div>
-      </ng-container>
-
-      <br>
-      <div class="text-center">
-        <button type="button" (click)="sairQuiz()" class="btn btn-danger btn-lg" >Sair</button>
+      <div class="quiz-header">
+        <span class="fw-bold fs-3 text-dark">Quiz de Jogo Responsável</span>
+        <br>
+        <span class="fw-bold">Bem-Vindo {{name}}</span>
       </div>
-      <br>
+    </div>
 
+    <ng-container *ngIf="!isQuizCompleted">
+      <div class="d-flex justify-content-around py-3">
+        <div class="score">
+          <span class="fw-bold fs-5 text-dark">{{points}} Pontos</span>
+        </div>
+        <div class="question-remain">
+          <span class="fw-bold">Questão {{currentQuestion+1}} de {{questionList.length}}</span>
+        </div>
+        <div class="timer">
+          <span class="fw-bold fs-5 text-dark">{{counter}} seg ⏱</span>
+        </div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width': progress + '%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="question">
+        <div class="card">
+          <span class="fw-bold fs-4 text-dark">{{questionList[currentQuestion]?.questionText}}</span>
+        </div>
+      </div>
+      <div class="options">
+        <ol *ngFor="let option of questionList[currentQuestion]?.options">
+          <li (click)="answer(currentQuestion+1, option)">
+            <div appChangeBg [isCorrect]="option.correct" class="card">
+              {{option.text}}
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="d-flex justify-content-between">
+        <button [disabled]="currentQuestion === 0" class="btn" (click)="previousQuestion()"><i class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true"></i></button>
+        <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh text-primary fa-3x" aria-hidden="true"></i></button>
+        <button class="btn" (click)="nextQuestion()"><i class="fa text-primary fa-chevron-right fa-3x" aria-hidden="true"></i></button>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="isQuizCompleted">
+      <div class="row d-flex justify-content-between">
+        <img class="img-fluid col-sm-12 mx-auto" src="assets/imagens/quiz/cuidados.jpg" alt="">
+        <div class="result text-center col-md-6 col-sm-12">
+          <h3>Você completou o Quiz. <br>Seu resultado:</h3>
+          <p>Perguntas Respondidas : {{questionList.length}}</p>
+          <p>Respostas Afirmativas : {{correctAnswer}}</p>
+          <p>Respostas Negativas : {{inCorrectAnswer}}</p>
+          <p>Sua Pontuação : {{points}} Pontos</p>
+          <br>
+          <br>
+          <p>Se sua pontuação for igual ou superior a 70 pontos neste teste, você pode ser identificado como tendo tendências de jogador patológico.</p>
+        </div>
+      </div>
+    </ng-container>
+
+    <br>
+    <div class="text-center">
+      <button type="button" (click)="sairQuiz()" class="btn btn-danger btn-lg">Sair</button>
+    </div>
+    <br>
   </div>
 </div>
 <br>
