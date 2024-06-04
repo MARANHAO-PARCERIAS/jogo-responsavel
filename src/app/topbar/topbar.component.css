@@ -1,0 +1,37 @@
+.topbar {
+  background-color: #1db2b7;
+  padding: 1rem 0;
+}
+
+.top-end {
+  text-align: center;
+}
+
+.return-website {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.return-website li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.return-website a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.return-website a:hover {
+  color: #007bff; /* Azul para hover */
+}
+
+.header-middle {
+  padding: 1rem 0;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
