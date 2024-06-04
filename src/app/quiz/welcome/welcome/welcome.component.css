@@ -1,0 +1,32 @@
+.container.bg-light {
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+h5 {
+  margin-top: 2rem;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+}
+
+.name label {
+  margin-bottom: 0.5rem;
+}
+
+.name input {
+  margin-top: 0.5rem;
+}
+
+.btn {
+  margin-top: 1.5rem;
+}
