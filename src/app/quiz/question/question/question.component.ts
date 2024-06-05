@@ -34,12 +34,6 @@ export class QuestionComponent implements OnInit {
         this.questionList = res.questions;
       })
   }
-  nextQuestion() {
-    this.currentQuestion++;
-  }
-  previousQuestion() {
-    this.currentQuestion--;
-  }
   answer(currentQno: number, option: any) {
 
     if(currentQno === this.questionList.length){
@@ -53,7 +47,7 @@ export class QuestionComponent implements OnInit {
         this.currentQuestion++;
         this.resetCounter();
         this.getProgressPercent();
-      }, 500);
+      }, 250);
 
 
     } else {
@@ -62,7 +56,7 @@ export class QuestionComponent implements OnInit {
         this.inCorrectAnswer++;
         this.resetCounter();
         this.getProgressPercent();
-      }, 500);
+      }, 250);
 
       // this.points -= 10;
     }
@@ -89,15 +83,6 @@ export class QuestionComponent implements OnInit {
     this.stopCounter();
     this.counter = 40;
     this.startCounter();
-  }
-  resetQuiz() {
-    this.resetCounter();
-    this.getAllQuestions();
-    this.points = 0;
-    this.counter = 40;
-    this.currentQuestion = 0;
-    this.progress = "0";
-
   }
   getProgressPercent() {
     this.progress = ((this.currentQuestion / this.questionList.length) * 100).toString();

@@ -34,8 +34,10 @@ ol {
 
 .result h3,
 .result p {
-  font-family: 'Segoe UI Emoji', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
 }
+
 
 .result img {
   width: 100%;
@@ -43,7 +45,7 @@ ol {
 }
 
 button.btn {
-  font-family: 'Segoe UI Emoji', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .result {
