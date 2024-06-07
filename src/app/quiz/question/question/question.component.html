@@ -7,20 +7,20 @@
       <div class="quiz-header">
         <span class="fw-bold fs-3 text-dark">Quiz de Jogo Responsável</span>
         <br>
-        <span class="fw-bold">Bem-Vindo {{name}}</span>
+        <span class="fw-bold text-strong-gray">Bem-Vindo {{name}}</span>
       </div>
     </div>
 
     <ng-container *ngIf="!isQuizCompleted">
       <div class="d-flex justify-content-around py-3">
         <div class="score">
-          <span class="fw-bold fs-5 text-dark">{{points}} Pontos</span>
+          <span class="fw-bold fs-6 text-low-gray">{{points}} Pontos</span>
         </div>
         <div class="question-remain">
-          <span class="fw-bold">Questão {{currentQuestion+1}} de {{questionList.length}}</span>
+          <span class="fw-bold fs-6 text-low-gray">Questão {{currentQuestion+1}} de {{questionList.length}}</span>
         </div>
         <div class="timer">
-          <span class="fw-bold fs-5 text-dark">{{counter}} seg ⏱</span>
+          <span class="fw-bold fs-6 text-low-gray">{{counter}} seg ⏱</span>
         </div>
       </div>
       <div class="progress mb-3">

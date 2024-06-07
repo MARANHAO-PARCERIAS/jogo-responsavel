@@ -50,6 +50,14 @@ button.btn {
   margin: 0.5rem 0;
 }
 
+.text-low-gray {
+  color: #666565;
+}
+
+.text-strong-gray {
+  color: #504f4f;
+}
+
 @media (max-width: 768px) {
   .result img {
     width: 100%;
