@@ -22,16 +22,6 @@ ol {
   max-width: 100%;
 }
 
-.quiz-header span {
-  font-family: cursive;
-}
-
-.score span,
-.timer span,
-.question span {
-  font-family: cursive;
-}
-
 .result h3,
 .result p {
   font-family: 'Roboto', sans-serif;
